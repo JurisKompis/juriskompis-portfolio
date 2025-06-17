@@ -99,22 +99,27 @@ nav a:hover {
 }
 
 .project-card {
-  background-color: var(--dark2);
-  border-radius: 8px;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  transition: transform 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #4A4E69;
+  color: #F2E9E4;
+  transition: transform 0.2s ease;
 }
 
 .project-card img {
   width: 100%;
-  display: block;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 .card-content {
@@ -205,13 +210,14 @@ button:hover {
 }
 
 .project-img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
   height: auto;
-  display: block;
-  margin: 0 auto 1.5rem auto;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 1.5rem auto;
   object-fit: cover;
-  max-height: 400px;
 }
+
 
